@@ -72,6 +72,9 @@ export const StyledButton = styled.button`
   ${({ size }) => buttonSizeStyle(size)}
   ${({ theme }) => buttonThemeStyle(theme)}
 
+  &:focus {
+    outline: none;
+  }
 
   &:after {
     content: '';

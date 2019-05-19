@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { textStyles } from './Text.styles';
 
-const Text = ({ customColor, tag, text, theme }) => {
+const Text = ({ color, tag, text, theme }) => {
   /* html tag defined dynamically */
   const Tag = `${tag}`;
 
   let styles = textStyles[theme];
-  if (customColor) {
-    styles = { ...styles, color: customColor };
+  if (color) {
+    styles = { ...styles, color: color };
   }
 
   return <Tag style={styles}>{text}</Tag>;
@@ -16,7 +16,7 @@ const Text = ({ customColor, tag, text, theme }) => {
 
 Text.propTypes = {
   /** Custom color for Text */
-  customColor: PropTypes.string,
+  color: PropTypes.string,
   /** HTML tag for Text */
   tag: PropTypes.string,
   /** Text content for Text */

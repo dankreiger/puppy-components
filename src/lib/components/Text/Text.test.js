@@ -46,10 +46,10 @@ describe('<Text />', () => {
 
     it('allows custom color', () => {
       const props = {
-        customColor: 'purple'
+        color: 'purple'
       };
       const wrapper = shallow(<Text {...props} />);
-      expect(wrapper.props().style.color).toBe(props.customColor);
+      expect(wrapper.props().style.color).toBe(props.color);
     });
   });
 });
