@@ -1,6 +1,8 @@
-### Puppy Components
+### Puppy Components 🐶
 
 [![Build Status](https://travis-ci.org/dankreiger/puppy-components.svg?branch=master)](https://travis-ci.org/dankreiger/puppy-components)
+
+[Overview](https://dankreiger.github.io/puppy-components/)
 
 ## Developing
 
