@@ -1,3 +1,7 @@
+### Puppy Components
+
+[![Build Status](https://travis-ci.org/dankreiger/puppy-components.svg?branch=master)](https://travis-ci.org/dankreiger/puppy-components)
+
 ## Developing
 
 To start the developing run :

@@ -23,6 +23,7 @@ export default {
       sourcemap: true
     }
   ],
+  external: ['stream'],
   plugins: [
     postcss({
       plugins: [],
