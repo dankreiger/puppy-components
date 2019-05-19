@@ -1,1 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans|Playfair+Display:700&display=swap");
+
+/* !!! TODO - find better way to do this */
+[data-preview="Card"] {
+  background-color: #e8e8e8 !important;
+}
