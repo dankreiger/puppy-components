@@ -2,7 +2,27 @@
 
 [![Build Status](https://travis-ci.org/dankreiger/puppy-components.svg?branch=master)](https://travis-ci.org/dankreiger/puppy-components)
 
-[Overview](https://dankreiger.github.io/puppy-components/)
+## [Component Playground](https://dankreiger.github.io/puppy-components/)
+
+## Usage
+
+1. Install (yarn or npm)
+
+   Yarn:
+
+   ```sh
+   $ yarn add puppy-components
+   ```
+
+   NPM:
+
+   ```sh
+   $ npm install puppy-components
+   ```
+
+2. Import the component(s) you want to use. Visit the [playground](https://dankreiger.github.io/puppy-components/) for usage examples and component docs.
+
+---
 
 ## Developing
 
