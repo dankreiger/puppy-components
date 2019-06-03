@@ -1,5 +1,7 @@
 ### Puppy Components 🐶
 
+- sample boilerplate for using React with Rollup
+
 [![Build Status](https://travis-ci.org/dankreiger/puppy-components.svg?branch=master)](https://travis-ci.org/dankreiger/puppy-components)
 
 ## [Component Playground](https://dankreiger.github.io/puppy-components/)
