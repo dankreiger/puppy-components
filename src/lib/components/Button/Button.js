@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StyledButton } from './Button.styles';
 
-const Button = ({ onClick, disabled, className, text, theme, size }) => (
+const Button = ({ onClick, disabled, className, text, theme, size, type }) => (
   <StyledButton
-    type="button"
+    type={type}
     className={`button ${className}`}
     onClick={onClick}
     disabled={disabled}
@@ -25,14 +25,17 @@ Button.propTypes = {
   /** Text of the button */
   text: PropTypes.string,
   /** Theme of the button */
-  theme: PropTypes.oneOf(['light', 'dark'])
+  theme: PropTypes.oneOf(['light', 'dark']),
+  /** Button Type */
+  type: PropTypes.oneOf(['submit', 'reset', 'button'])
 };
 
 Button.defaultProps = {
   onClick: () => {},
   disabled: false,
   size: 'big',
-  theme: 'dark'
+  theme: 'dark',
+  type: 'button'
 };
 
 export default Button;
